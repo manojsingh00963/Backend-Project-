@@ -1,3 +1,10 @@
-# Chai aur backend 
+1> what always connect with data base ,got problem ,wrap in try catch block 
 
-learning backend with chaiaurcode at a project .
+2> data base is another continent. ( it's take time) use async and await.
+
+
+> explore about connectionInstance. 
+
+
+<!-- > // "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js" -->
+ 

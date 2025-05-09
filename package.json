@@ -1,20 +1,23 @@
 {
-  "name": "backend-project-",
+  "name": "backend-project",
   "version": "1.0.0",
-  "description": "a backend at with chaiaurcode learning .",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": " nodemon src/index.js "
-  },
-  "keywords": [
-    "javascript",
-    "backend",
-    "chai"
-  ],
-  "author": "manoj singh",
+  "description": "backend project",
   "license": "ISC",
+  "author": "\"manoj singh\"",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
   }
 }
