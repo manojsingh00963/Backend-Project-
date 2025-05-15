@@ -18,6 +18,10 @@ app.use(cookieParser()) // Parse cookies
 
 // routes import 
 
+app.get("/",(req,res)=>{
+    res.send("hello world")
+})
+
 import userRouter from "./routes/user.routes.js"
 
 

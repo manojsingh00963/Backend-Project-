@@ -1,3 +1,5 @@
+// it will send a like this type of response to data, in own structure.
+
 class ApiResponse {
   constructor(statusCode, data, message = "Success") {
     this.statusCode = statusCode;
@@ -6,11 +8,13 @@ class ApiResponse {
     this.success = statusCode < 400;
   }
 
-  static success(data) {
-    return new ApiResponse(200, 'Success', data);
-  }
+  // static success(data) {
+  //   return new ApiResponse(200, 'Success', data);
+  // }
 
-  static error(message) {
-    return new ApiResponse(500, message, null);
-  }
+  // static error(message) {
+  //   return new ApiResponse(500, message, null);
+  // }
 }
+
+export  {ApiResponse};
